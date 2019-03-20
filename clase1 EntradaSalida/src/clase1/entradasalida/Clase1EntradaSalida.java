@@ -5,6 +5,8 @@
  */
 package clase1.entradasalida;
 
+import java.util.Scanner;
+
 /**
  *
  * @author PC
@@ -18,6 +20,11 @@ public class Clase1EntradaSalida {
         System.out.println("hola mundo");
         int edad;
         edad = 33;
+        System.out.println(" su edad es "+ edad);
+        Scanner MiScanner;
+        MiScanner=new Scanner (System.in);
+        System.out.println("por favor ingrese su edad");
+        edad= MiScanner.nextInt();
         System.out.println(" su edad es "+ edad);
         // TODO code application logic here
     }
